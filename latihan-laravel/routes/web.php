@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Ketika akses halaman ini ... maka jalankan fungsi yang mengambil di folder view dan welcome

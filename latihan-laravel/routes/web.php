@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Halaman Home';
+});
+
+Route::get('/about', function(){
+    return 'Halaman About';
 });
 
 // Ketika akses halaman ini ... maka jalankan fungsi yang mengambil di folder view dan welcome
